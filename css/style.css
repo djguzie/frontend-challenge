@@ -33,32 +33,42 @@ body{
   height: 255px;
   margin: 0, auto;
   overflow: scroll;
-  clear:both;
 }
 
 li {
-  display:block;
+  display:inline;
 }
 
 .bus {
-  width: 20%;
+  float:left;
+  width: 11%;
+  margin: 6px 0px 0px 10px;
+  padding: 2px;
+  border: .05px solid #000;
+  background-color: #dadada;
+  text-align: center;
 }
 
 .dest {
-  width: 40%;
+  float:left;
+  width: 42%;
+  margin:3px;
+  padding: 6px;
+  margin-left: 10px;
 }
 
 .freq {
-  width: 40%;
+  float:right;
+  width: 35%;
+  margin:3px 10px;
+  padding: 6px;
 }
 
 h2 {
-  font-size: 1.05em;
   font-weight:600;
   color:#000;
-  height: 30px;
-  padding:5px;
-  margin: 1px;
+  padding:7px;
+  margin: 3px;
   text-align: center;
 }
 
@@ -70,8 +80,8 @@ h3 {
 
 .line_items{
   width:100%;
-  height: 30px;
-  float:left;
+  height: 35px;
+  margin: 3px;
   border-bottom: 1px solid #dadada;
 }
 
@@ -79,6 +89,5 @@ h3 {
   width: 100%;
   height: 100%;
   bottom:0px;
-  opacity: .95;
   border-top:1px solid #dadada;
 }

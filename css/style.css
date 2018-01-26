@@ -129,6 +129,7 @@ h2 {
   font-size: .8em;
   color: #dadada;
 }
+
 .icon_list {
   width:20%;
   display:inline-block;
@@ -138,6 +139,7 @@ h2 {
   margin:2%;
   text-align:center;
 }
+
 .icon_list img{
   width:50%;
 }
